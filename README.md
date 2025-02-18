@@ -3,7 +3,7 @@
 ## Initialize
 
 ```bash
-npx create-next-app@latest your-fabrix-app -e https://github.com/IzumiSy/nextjs-fabrix-appshell
+npx create-next-app@latest your-fabrix-app -e https://github.com/IzumiSy/nextjs-fabrix-appshell-template
 ```
 
 ## Installation

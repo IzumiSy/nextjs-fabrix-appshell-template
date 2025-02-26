@@ -8,13 +8,14 @@ npx create-next-app@latest my-fabrix-app --use-pnpm -e https://github.com/IzumiS
 
 ## Setup 
 
-This app template has a minimum authentication that uses Bearer Token.
+This app template has a minimum authentication that uses Machine User authentication on Tailor Platform.
 
 Do NOT forget to add `.env` file as follows.
 
 ```
 NEXT_PUBLIC_GRAPHQL_URL="<your GraphQL backend URL>"
-NEXT_PUBLIC_AUTH_TOKEN="<your bearer authentication token>"
+NEXT_PUBLIC_CLIENT_ID="<your Tailor machine user client ID>"
+NEXT_PUBLIC_CLIENT_SECRET="<your Tailor machine user client secret>"
 ```
 
 ## Start

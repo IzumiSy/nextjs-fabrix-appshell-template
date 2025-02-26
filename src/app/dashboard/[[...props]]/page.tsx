@@ -12,7 +12,7 @@ const Page = () => {
 
   return (
     <AppShell
-      url={process.env.NEXT_PUBLIC_GRAPHQL_URL}
+      url={`${process.env.NEXT_PUBLIC_GRAPHQL_URL}/query`}
       prependExchanges={[
         machineUserAuthExchange({
           apiURL: process.env.NEXT_PUBLIC_GRAPHQL_URL,

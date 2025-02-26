@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fabrix-framework/fabrix": "^0.7.0",
-    "@izumisy-tailor/fabrix-appshell": "^0.1.1",
+    "@izumisy-tailor/fabrix-appshell": "^0.2.0",
     "@urql/exchange-auth": "^2.2.0",
     "next": "15.1.7",
     "react": "^19.0.0",

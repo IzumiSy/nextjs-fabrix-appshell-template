@@ -12,8 +12,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0(@urql/core@5.1.0(graphql@16.10.0))(graphql@16.10.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@izumisy-tailor/fabrix-appshell':
-        specifier: ^0.2.0
-        version: 0.2.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(@urql/core@5.1.0(graphql@16.10.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@3.4.17)
+        specifier: ^0.3.0
+        version: 0.3.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(@urql/core@5.1.0(graphql@16.10.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@3.4.17)
       '@urql/exchange-auth':
         specifier: ^2.2.0
         version: 2.2.0(@urql/core@5.1.0(graphql@16.10.0))
@@ -279,8 +279,8 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@izumisy-tailor/fabrix-appshell@0.2.0':
-    resolution: {integrity: sha512-Z71l0QMERXcUs+cDQ2s7FAmAg+hdmgvtmNrT4d9Nic8lnW2/Kq/Vvm8bejZuHBPfwoYVS1oryXo2AGePPrG0qw==}
+  '@izumisy-tailor/fabrix-appshell@0.3.0':
+    resolution: {integrity: sha512-mwgSKokdGwLbBe2lF2K/ZFxXmjYbiZH86aAS3IRs6r8XfzoTjnaKRUeb5RsH8OkixnSAjoONHmvEFR2kuhhWMQ==}
     peerDependencies:
       react: '>= 19'
       react-dom: '>= 19'
@@ -2569,7 +2569,7 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@izumisy-tailor/fabrix-appshell@0.2.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(@urql/core@5.1.0(graphql@16.10.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@3.4.17)':
+  '@izumisy-tailor/fabrix-appshell@0.3.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(@urql/core@5.1.0(graphql@16.10.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@3.4.17)':
     dependencies:
       '@fabrix-framework/fabrix': https://pkg.pr.new/fabrix-framework/fabrix/@fabrix-framework/fabrix@da6fd24(@urql/core@5.1.0(graphql@16.10.0))(graphql@16.10.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@hookform/resolvers': 4.1.2(react-hook-form@7.54.2(react@19.0.0))
